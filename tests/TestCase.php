@@ -20,6 +20,6 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
 
         $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
-        return $app;
+        return $app;;
     }
 }
