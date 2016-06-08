@@ -1,4 +1,6 @@
-*
-!.gitignore
-.env*
-test/
+/vendor
+/node_modules
+/public/storage
+
+.env
+/test
